@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="jd-main">
+        <div id="jd-main-title" class="center-flex">
+            JOB DESCRIPTION
+        </div>
+
+        <div id="idOfcontent">
+            <div class="jd-title">
+
+                <span class="jd-main-title">
+                    Senior Javascript Developer
+                </span>
+
+                <span class="jd-status">
+                    status: Active
+                </span>
+
+            </div>
+
+            <div class="bank-info">
+                <span>Shinhan bank &nbsp;</span>&nbsp;•1,001-5,000 employees &nbsp;• Banking Services
+            </div>
+
+            <div class="job-place">
+                Mumbai Metropolitan Region
+            </div>
+
+            <div class="job-responsiblity">
+
+                <div class="job-re-title">
+                    What's the role?
+                </div>
+
+                <div class="job-respo-desk">
+                    As a Lead Engineer at Shinhan Bank, you will autonomously drive an agile team in innovating,
+                    enhancing,
+                    and upholding vital tools and services that underpin the processing of critical financial data.
+                </div>
+
+            </div>
+
+            <div class="job-responsiblity">
+
+                <div class="job-re-title">
+                    Qualifications and certifications
+                </div>
+
+                <div class="job-respo-desk">
+                    &nbsp;•&nbsp;7+ years of software development experience, including 1+ year in Lead Engineer role
+                    Proficient in Java and/or Scala programming, backend architectures, messaging tech, and related
+                    frameworks <br>
+                    &nbsp;•&nbsp;Cloud expertise (AWS/Azure/IBM/Oracle); adept in REST, JSON, XML, SOA, microservices
+                    <br>
+                    &nbsp;•&nbsp;Strong skills in PostgreSQL / PostGIS, AWS (EC2, S3, RDS), Docker, CI/CD (preferably
+                    Jenkins) <br>
+                    &nbsp;•&nbsp;Familiar with JIRA, Git/GitLab, Confluence/Wiki; adept in Linux/Unix and shell
+                    scripting<br>
+                    &nbsp;•&nbsp;Translates business/architectural features into robust software design; adheres to
+                    quality
+                    practices<br>
+                    &nbsp;•&nbsp;Emphasizes unit testing, performance testing, and writing testable, reusable, flexible
+                    code<br>
+                    &nbsp;•&nbsp;Self-motivated, organized, detail-oriented team player with agile mindset.
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div id="idOfshowmore" class="center-flex">
+            SHOW MORE
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+<script>
+    let contentVar = document.getElementById("idOfcontent");
+    let buttonVar = document.getElementById("idOfshowmore");
+
+    buttonVar.onclick = function () {
+        if (contentVar.className == "classOfopen") {
+            // shrink the box
+            contentVar.className = "";
+            buttonVar.innerHTML = "Show More";
+        } else {
+            // expand the box
+            contentVar.classList.add('classOfopen');  /* classList.add() is the correct way of adding classes */
+            buttonVar.innerHTML = "Show Less";
+
+        }
+    }
+</script>

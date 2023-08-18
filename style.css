@@ -1,0 +1,157 @@
+.jd-main {
+  /* width: 80%; */
+
+  background: #fff;
+  box-shadow: 3px 4px 9px 10px rgba(0, 0, 0, 0.06);
+  width: 56%;
+  background: #fff;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#idOfcontent {
+  padding: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.jd-title {
+  color: #000;
+  font-family: Roboto;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jd-status {
+  color: #000;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.bank-info {
+  color: rgba(0, 0, 0, 0.71);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 17px;
+}
+
+.bank-info span {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.job-place {
+  color: rgba(0, 0, 0, 0.55);
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.job-responsiblity {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+.job-re-title {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.job-respo-desk {
+}
+
+.job-re-title {
+}
+
+.job-respo-desk {
+}
+
+#idOfshowmore {
+  width: 100%;
+  background: rgba(0, 10, 254, 0.61);
+  height: 86px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Roboto;
+  font-size: 24px;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#idOfcontent {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+
+  margin: 0 auto;
+  max-height: 0px;
+  overflow: hidden;
+  /* Set transitions up */
+  -webkit-transition: max-height 0.9s;
+  -moz-transition: max-height 0.9s;
+  transition: max-height 0.9s;
+}
+
+#idOfcontent.classOfopen {
+  /* <- removed the space */
+  max-height: 600px;
+  /* Set transitions up */
+  /* for smooth transition */
+  -webkit-transition: max-height 0.7s;
+  -moz-transition: max-height 0.7s;
+  transition: max-height 0.7s;
+  /* padding-bottom: 50px; */
+}
+
+#idOfshowmore {
+  font-size: 17pxx;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+#jd-main-title {
+  width: 100%;
+  /* background: rgba(0, 10, 254, 0.61); */
+  height: 86px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Roboto;
+  font-size: 24px;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
